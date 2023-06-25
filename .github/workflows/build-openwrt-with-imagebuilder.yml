@@ -177,10 +177,10 @@ on:
         type: choice
         options:
           - angel
-          - yourname
+          - farizz
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Jakarta
   IMAGEBUILDER_SH: config-openwrt/imagebuilder/imagebuilder.sh
 
 jobs:
