@@ -102,8 +102,8 @@ auto_kernel="true"
 make_board="all"
 
 # Set OpenWrt firmware size (Unit: MiB, boot_mb >= 256, root_mb >= 512)
-boot_mb="256"
-root_mb="1024"
+boot_mb="512"
+root_mb="4096"
 # Set OpenWrt builder signature
 builder_name=""
 
