@@ -538,17 +538,10 @@ CONFIG_BUSYBOX_DEFAULT_FALLOCATE=y
 # end of 4. Other Configuration
 
 # File System
-CONFIG_PACKAGE_kmod-fs-nfs=y
-CONFIG_PACKAGE_kmod-fs-nfs-common=y
-CONFIG_PACKAGE_kmod-fs-nfs-common-rpcsec=y
-CONFIG_PACKAGE_kmod-fs-nfs-v3=y
-CONFIG_PACKAGE_kmod-fs-nfs-v4=y
-CONFIG_PACKAGE_kmod-fs-nfsd=y
-CONFIG_PACKAGE_kmod-fs-squashfs=y
-CONFIG_PACKAGE_kmod-fs-ext4=y
-CONFIG_PACKAGE_kmod-fs-exfat=y
-CONFIG_PACKAGE_kmod-fs-ntfs=y
-CONFIG_PACKAGE_kmod-fs-squashfs=y
-
-
-
+CONFIG_PACKAGE_kmod-usb-storage-uas=y
+CONFIG_PACKAGE_kmod-usb-storage=y
+CONFIG_PACKAGE_kmod-usb-storage-extras=y
+CONFIG_PACKAGE_e2fsprogs
+CONFIG_PACKAGE_f2fs-tools
+CONFIG_PACKAGE_ntfs-3g
+CONFIG_PACKAGE_kmod-fs-exfat
