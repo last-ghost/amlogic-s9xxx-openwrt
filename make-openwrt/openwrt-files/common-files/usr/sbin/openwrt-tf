@@ -98,7 +98,7 @@ create_new_partition() {
 
     # Create the partition
     echo -e "${INFO} Start creating new partitions..."
-    ROOTFS_MB="4096"
+    ROOTFS_MB="2048"
     parted /dev/${DISK_NAME} mkpart primary btrfs $((START_P3))MiB $((START_P3 + ROOTFS_MB - 1))MiB 2>/dev/null
     parted /dev/${DISK_NAME} mkpart primary btrfs $((START_P3 + ROOTFS_MB))MiB 100% 2>/dev/null
 
