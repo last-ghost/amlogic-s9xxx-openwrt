@@ -29,6 +29,10 @@ on:
           - immortalwrt:21.02.6
           - immortalwrt:21.02.5
           - immortalwrt:21.02.4
+      openwrt_size:
+        description: "Set the rootfs size(Unit: MiB)."
+        required: false
+        default: "4096"
       openwrt_board:
         description: "Select device board"
         required: false
